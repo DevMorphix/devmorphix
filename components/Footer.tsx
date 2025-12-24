@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center mb-12">
           <div className="flex items-center space-x-2 mb-6 md:mb-0">
-            <Hexagon className="text-aura-gold h-8 w-8" strokeWidth={1.5} />
+            {/* <Hexagon className="text-aura-gold h-8 w-8" strokeWidth={1.5} /> */}
             <span className="font-serif text-2xl tracking-widest text-aura-light">DevMorphix</span>
           </div>
           <div className="flex space-x-8">

@@ -157,7 +157,7 @@ const Home: React.FC = () => {
 
       {/* FAQ Section */}
       <section className="py-32 relative">
-        <div className="max-w-4xl mx-auto px-6">
+        <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="font-serif text-3xl md:text-5xl text-aura-light">Frequently Asked Questions</h2>
           </div>
@@ -180,7 +180,7 @@ const Home: React.FC = () => {
                       exit={{ height: 0, opacity: 0 }}
                       className="overflow-hidden"
                     >
-                      <div className="p-6 pt-0 leading-relaxed border-t text-aura-sand/70 border-white/5">
+                      <div className="p-6 pt-4 leading-relaxed border-t text-aura-sand/70 border-white/5">
                         {faq.answer}
                       </div>
                     </motion.div>

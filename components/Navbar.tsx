@@ -37,7 +37,7 @@ const Navbar: React.FC = () => {
       <div className="max-w-7xl mx-auto px-6 sm:px-8 flex justify-between items-center">
         {/* Logo */}
         <div onClick={() => navigate('/')} className="flex items-center space-x-3 cursor-pointer group">
-          <Hexagon className="text-aura-gold h-8 w-8 transition-transform group-hover:rotate-180 duration-700" strokeWidth={1.5} />
+          {/* <Hexagon className="text-aura-gold h-8 w-8 transition-transform group-hover:rotate-180 duration-700" strokeWidth={1.5} /> */}
           <span className="font-serif text-2xl tracking-[0.2em] text-aura-light font-bold">DevMorphix</span>
         </div>
 
