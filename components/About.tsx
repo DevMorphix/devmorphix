@@ -32,10 +32,10 @@ const About: React.FC = () => {
         {/* Stats / Features */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-24 border-y py-12 border-white/5">
           {[
-            { icon: <Target size={24} />, label: "Projects Delivered", value: "150+" },
+            { icon: <Target size={24} />, label: "Projects Delivered", value: "10+" },
             { icon: <Users size={24} />, label: "Happy Clients", value: "98%" },
-            { icon: <Zap size={24} />, label: "Performance Score", value: "100" },
-            { icon: <Award size={24} />, label: "Design Awards", value: "12" }
+            { icon: <Zap size={24} />, label: "Performance Score", value: "100" }
+            // { icon: <Award size={24} />, label: "Design Awards", value: "12" }
           ].map((stat, i) => (
             <motion.div 
               key={i}
