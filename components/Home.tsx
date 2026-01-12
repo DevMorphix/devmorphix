@@ -81,6 +81,12 @@ const Home: React.FC = () => {
                 cat: "Service directory",
                 desc: "The ultimate online business directory accessible through WhatsApp. We are dedicated to connecting local businesses with customers in the most efficient way possible.",
                 img: "/gigwork.png"
+              },
+              {
+                title: "Chilamboli Event Platform ",
+                cat: "Service directory",
+                desc: "The official digital platform for the State-Level Special School Youth Festival. From registrations to results — everything managed in one powerful system.",
+                img: "/chilamboli.png"
               }
             ].map((project, i) => (
               <div key={i} className={`flex flex-col md:flex-row gap-12 items-center ${i % 2 !== 0 ? 'md:flex-row-reverse' : ''}`}>
