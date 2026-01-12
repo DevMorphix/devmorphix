@@ -30,7 +30,7 @@ const About: React.FC = () => {
         </div>
 
         {/* Stats / Features */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-24 border-y py-12 border-white/5">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-24 border-y py-12 border-white/5">
           {[
             { icon: <Target size={24} />, label: "Projects Delivered", value: "10+" },
             { icon: <Users size={24} />, label: "Happy Clients", value: "98%" },

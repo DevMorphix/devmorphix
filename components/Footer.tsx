@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
         
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12 text-sm">
           <div>
-            <h4 className="text-white uppercase tracking-widest mb-4">Company</h4>
+            <h4 className="text-aura-light uppercase tracking-widest mb-4">Company</h4>
             <ul className="space-y-2 opacity-70">
               <li><a href="#" className="hover:text-aura-gold">About</a></li>
               {/* <li><a href="#" className="hover:text-aura-gold">Careers</a></li> */}
@@ -28,7 +28,7 @@ const Footer: React.FC = () => {
             </ul>
           </div>
           <div>
-            <h4 className="text-white uppercase tracking-widest mb-4">Services</h4>
+            <h4 className="text-aura-light uppercase tracking-widest mb-4">Services</h4>
             <ul className="space-y-2 opacity-70">
               <li><a href="#" className="hover:text-aura-gold">Web Development</a></li>
               <li><a href="#" className="hover:text-aura-gold">UI/UX Design</a></li>
@@ -36,7 +36,7 @@ const Footer: React.FC = () => {
             </ul>
           </div>
           <div>
-            <h4 className="text-white uppercase tracking-widest mb-4">Resources</h4>
+            <h4 className="text-aura-light uppercase tracking-widest mb-4">Resources</h4>
             <ul className="space-y-2 opacity-70">
               <li><a href="#" className="hover:text-aura-gold">Templates</a></li>
               {/* <li><a href="#" className="hover:text-aura-gold">Blog</a></li> */}
@@ -44,7 +44,7 @@ const Footer: React.FC = () => {
             </ul>
           </div>
            <div>
-            <h4 className="text-white uppercase tracking-widest mb-4">Legal</h4>
+            <h4 className="text-aura-light uppercase tracking-widest mb-4">Legal</h4>
             <ul className="space-y-2 opacity-70">
               <li><a href="#" className="hover:text-aura-gold">Privacy Policy</a></li>
               <li><a href="#" className="hover:text-aura-gold">Terms of Service</a></li>
