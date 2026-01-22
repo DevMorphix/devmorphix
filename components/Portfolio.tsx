@@ -30,6 +30,38 @@ const projects: Project[] = [
     description: "The official digital platform for the State-Level Special School Youth Festival. From registrations to results — everything managed in one powerful system.",
     year: 2025,
   },
+  {
+    id: 4,
+    title: "Gigwork Blog",
+    category: "Blogging Platform",
+    imageUrl: "/Gigwork blog.png",
+    description: "A platform for sharing insights, news, and updates related to the GigWork service directory.",
+    year: 2025,
+  },
+  {
+    id: 5,
+    title: "Alleppey Tours",
+    category: "Travel Booking",
+    imageUrl: "/Alleppey.png",
+    description: "A comprehensive travel booking platform specializing in tours and experiences in Alleppey, Kerala. Book houseboats, guided tours, and local experiences with ease.",
+    year: 2025,
+  },
+  {
+    id: 6,
+    title: "Aspireon Learning Solutions",
+    category: "Educational institute",
+    imageUrl: "/Aspireon.png",
+    description: "An online platform for Aspireon Learning Solutions, offering courses, resources, and support for students aiming to excel in competitive exams.",
+    year: 2025,
+  },
+  {
+    id: 7,
+    title: "NSHSS Nedumudy",
+    category: "School website",
+    imageUrl: "/nshss.png",
+    description: "The official website for NSHSS Nedumudy, providing information about the school's programs, events, and community initiatives.",
+    year: 2023
+  },
 ];
 
 const Portfolio: React.FC = () => {
