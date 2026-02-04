@@ -11,10 +11,10 @@ const Footer: React.FC = () => {
             <span className="font-serif text-2xl tracking-widest text-aura-light">DevMorphix</span>
           </div>
           <div className="flex space-x-8">
-            <a href="#" className="hover:text-aura-gold transition-colors"><Instagram size={20} /></a>
-            <a href="#" className="hover:text-aura-gold transition-colors"><Twitter size={20} /></a>
-            <a href="#" className="hover:text-aura-gold transition-colors"><Linkedin size={20} /></a>
-            <a href="#" className="hover:text-aura-gold transition-colors"><Github size={20} /></a>
+            <a href="https://www.instagram.com/devmorphix_official/" className="hover:text-aura-gold transition-colors"><Instagram size={20} /></a>
+            {/* <a href="#" className="hover:text-aura-gold transition-colors"><Twitter size={20} /></a> */}
+            <a href="https://www.linkedin.com/company/devmorphix" className="hover:text-aura-gold transition-colors"><Linkedin size={20} /></a>
+            <a href="https://github.com/DevMorphix" className="hover:text-aura-gold transition-colors"><Github size={20} /></a>
           </div>
         </div>
         
@@ -22,7 +22,7 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="text-aura-light uppercase tracking-widest mb-4">Company</h4>
             <ul className="space-y-2 opacity-70">
-              <li><a href="#" className="hover:text-aura-gold">About</a></li>
+              <li><a href="/about" className="hover:text-aura-gold">About</a></li>
               {/* <li><a href="#" className="hover:text-aura-gold">Careers</a></li> */}
               {/* <li><a href="#" className="hover:text-aura-gold">Press</a></li> */}
             </ul>
@@ -38,7 +38,7 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="text-aura-light uppercase tracking-widest mb-4">Resources</h4>
             <ul className="space-y-2 opacity-70">
-              <li><a href="#" className="hover:text-aura-gold">Templates</a></li>
+              <li><a href="/portfolio" className="hover:text-aura-gold">Projects</a></li>
               {/* <li><a href="#" className="hover:text-aura-gold">Blog</a></li> */}
               {/* <li><a href="#" className="hover:text-aura-gold">Case Studies</a></li> */}
             </ul>
