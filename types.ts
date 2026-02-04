@@ -5,6 +5,7 @@ export interface Project {
   imageUrl: string;
   year: number;
   description: string;
+  link?: string;
 }
 
 export interface Template {

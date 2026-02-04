@@ -7,6 +7,7 @@ import ServicesPage from './pages/ServicesPage';
 import PortfolioPage from './pages/PortfolioPage';
 import TemplatesPage from './pages/TemplatesPage';
 import ContactPage from './pages/ContactPage';
+import TeamPage from './pages/TeamPage';
 import Footer from './components/Footer';
 import AIChatWidget from './components/AIChatWidget';
 import { ThemeProvider } from './components/ThemeContext';
@@ -35,6 +36,7 @@ function App() {
               <Route path="/portfolio" element={<PortfolioPage />} />
               <Route path="/templates" element={<TemplatesPage />} />
               <Route path="/contact" element={<ContactPage />} />
+              <Route path="/team" element={<TeamPage />} />
             </Routes>
           </main>
           <Footer />

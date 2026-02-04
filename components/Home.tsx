@@ -74,7 +74,7 @@ const Home: React.FC = () => {
                 title: "Inovus Labs IEDC",
                 cat: "Community Platform",
                 desc: "Offical website and member portal for Inovus Labs Innovation and Entrepreneurship Development Cell.",
-                img: "/Gemini_Generated_Image_bqht1sbqht1sbqht.png"
+                img: "/inovus.png"
               },
               {
                 title: "GigWork ",
