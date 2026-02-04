@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { ExternalLink } from "lucide-react";
+import { ExternalLink, Link } from "lucide-react";
 import { Project } from "../types";
 
 const projects: Project[] = [
@@ -8,10 +8,11 @@ const projects: Project[] = [
     id: 1,
     title: "Inovus Labs IEDC",
     category: "Community Platform",
-    imageUrl: "/Gemini_Generated_Image_bqht1sbqht1sbqht.png",
+    imageUrl: "/inovus.png",
     description:
       "Official website and member portal for Inovus Labs Innovation and Entrepreneurship Development Cell.",
     year: 2024,
+    link: "https://inovuslabs.org",
   },
   {
     id: 2,
@@ -21,6 +22,7 @@ const projects: Project[] = [
     description:
       "The ultimate online business directory accessible through WhatsApp. We are dedicated to connecting local businesses with customers in the most efficient way possible.",
     year: 2024,
+    link: "https://gigwork.co.in",
   },
   {
     id: 3,
@@ -29,6 +31,7 @@ const projects: Project[] = [
     imageUrl: "/chilamboli.png",
     description: "The official digital platform for the State-Level Special School Youth Festival. From registrations to results — everything managed in one powerful system.",
     year: 2025,
+    link: "https://chilamboli.devmorphix.com",
   },
   {
     id: 4,
@@ -37,6 +40,7 @@ const projects: Project[] = [
     imageUrl: "/Gigwork blog.png",
     description: "A platform for sharing insights, news, and updates related to the GigWork service directory.",
     year: 2025,
+    link: "https://blog.gigwork.co.in",
   },
   {
     id: 5,
@@ -45,6 +49,7 @@ const projects: Project[] = [
     imageUrl: "/Alleppey.png",
     description: "A comprehensive travel booking platform specializing in tours and experiences in Alleppey, Kerala. Book houseboats, guided tours, and local experiences with ease.",
     year: 2025,
+    link: "https://alleppeytours.com",
   },
   {
     id: 6,
@@ -53,6 +58,7 @@ const projects: Project[] = [
     imageUrl: "/Aspireon.png",
     description: "An online platform for Aspireon Learning Solutions, offering courses, resources, and support for students aiming to excel in competitive exams.",
     year: 2025,
+    link: "https://aspireonlearningsolutions.com",
   },
   {
     id: 7,
@@ -60,7 +66,8 @@ const projects: Project[] = [
     category: "School website",
     imageUrl: "/nshss.png",
     description: "The official website for NSHSS Nedumudy, providing information about the school's programs, events, and community initiatives.",
-    year: 2023
+    year: 2023,
+    link: "https://nshssnedumudy.com",
   },
 ];
 
@@ -89,10 +96,12 @@ const Portfolio: React.FC = () => {
               transition={{ delay: index * 0.1, duration: 0.6 }}
               className="group cursor-pointer"
             >
+              <a href={project.link} target="_blank" rel="noopener noreferrer">
               <div className="relative overflow-hidden mb-6 aspect-video">
                 <div className="absolute inset-0 bg-aura-dark/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10 flex items-center justify-center">
                   <div className="transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
                     <span className="px-6 py-3 bg-aura-gold text-aura-dark uppercase tracking-widest text-xs font-bold flex items-center gap-2">
+                      
                       View Webpage <ExternalLink size={14} />
                     </span>
                   </div>
@@ -119,6 +128,7 @@ const Portfolio: React.FC = () => {
               <p className="text-aura-light/70 text-sm max-w-md line-clamp-2">
                 {project.description}
               </p>
+              </a>
             </motion.div>
           ))}
         </div>
