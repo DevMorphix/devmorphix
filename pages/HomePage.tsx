@@ -7,13 +7,14 @@ const HomePage: React.FC = () => {
   return (
     <>
       <SEO
-        title="Premium Web Development & Digital Solutions"
-        description="DevMorphix delivers cutting-edge web development, AI integration, and digital transformation solutions. Transform your business with our expert team of developers and designers."
-        keywords="web development, digital agency, AI integration, custom software, app development, UI/UX design, DevMorphix"
+        title="DevMorphix IT Solutions | Website & Software Development in Kerala"
+        description="DevMorphix provides IT solutions, website development, and software development services in Changanacherry, Kottayam, Alappuzha, Kerala, and across India."
+        keywords="devmorphix, it solutions, changanacherry, kottayam, alappuzha kerala, india, website development, website developement, software development"
         canonical="/"
         ogImage="/og-home.jpg"
       />
       <StructuredData type="Organization" />
+      <StructuredData type="LocalBusiness" />
       <StructuredData type="WebSite" />
       <Home />
     </>

@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 
 interface StructuredDataProps {
-  type: 'Organization' | 'WebSite' | 'Service' | 'ContactPage';
+  type: 'Organization' | 'LocalBusiness' | 'WebSite' | 'Service' | 'ContactPage';
   data?: any;
 }
 
@@ -15,12 +15,14 @@ const StructuredData: React.FC<StructuredDataProps> = ({ type, data }) => {
           '@context': 'https://schema.org',
           '@type': 'Organization',
           name: 'DevMorphix',
-          description: 'Premium web development and digital transformation agency',
+          legalName: 'DevMorphix',
+          description: 'IT solutions, website development, and software development company in Kerala, India',
           url: baseUrl,
           logo: `${baseUrl}/logo.png`,
+          foundingDate: '2020',
           contactPoint: {
             '@type': 'ContactPoint',
-            telephone: '+1-XXX-XXX-XXXX',
+            telephone: '+91-00000-00000',
             contactType: 'customer service',
             email: 'hello@devmorphix.com',
             availableLanguage: ['English']
@@ -32,8 +34,68 @@ const StructuredData: React.FC<StructuredDataProps> = ({ type, data }) => {
           ],
           address: {
             '@type': 'PostalAddress',
-            addressCountry: 'US'
-          }
+            addressLocality: 'Changanacherry',
+            addressRegion: 'Kerala',
+            addressCountry: 'IN'
+          },
+          areaServed: [
+            'Changanacherry',
+            'Kottayam',
+            'Alappuzha',
+            'Kerala',
+            'India'
+          ]
+        };
+
+      case 'LocalBusiness':
+        return {
+          '@context': 'https://schema.org',
+          '@type': 'ProfessionalService',
+          name: 'DevMorphix',
+          image: `${baseUrl}/og-image.jpg`,
+          url: baseUrl,
+          telephone: '+91-00000-00000',
+          email: 'hello@devmorphix.com',
+          description: 'Kerala IT solutions company for website development and software development services.',
+          priceRange: '$$',
+          address: {
+            '@type': 'PostalAddress',
+            addressLocality: 'Changanacherry',
+            addressRegion: 'Kerala',
+            addressCountry: 'IN'
+          },
+          geo: {
+            '@type': 'GeoCoordinates',
+            latitude: 9.4425,
+            longitude: 76.5476
+          },
+          areaServed: [
+            {
+              '@type': 'City',
+              name: 'Changanacherry'
+            },
+            {
+              '@type': 'City',
+              name: 'Kottayam'
+            },
+            {
+              '@type': 'City',
+              name: 'Alappuzha'
+            },
+            {
+              '@type': 'State',
+              name: 'Kerala'
+            },
+            {
+              '@type': 'Country',
+              name: 'India'
+            }
+          ],
+          sameAs: [
+            'https://twitter.com/devmorphix',
+            'https://linkedin.com/company/devmorphix',
+            'https://github.com/devmorphix'
+          ]
         };
 
       case 'WebSite':
@@ -42,58 +104,59 @@ const StructuredData: React.FC<StructuredDataProps> = ({ type, data }) => {
           '@type': 'WebSite',
           name: 'DevMorphix',
           url: baseUrl,
-          description: 'Premium web development and digital solutions',
-          potentialAction: {
-            '@type': 'SearchAction',
-            target: {
-              '@type': 'EntryPoint',
-              urlTemplate: `${baseUrl}/search?q={search_term_string}`
-            },
-            'query-input': 'required name=search_term_string'
-          }
+          description: 'DevMorphix IT solutions, website development, and software development services in Kerala, India',
+          inLanguage: 'en-IN'
         };
 
       case 'Service':
         return {
           '@context': 'https://schema.org',
           '@type': 'Service',
-          serviceType: 'Web Development',
+          serviceType: 'Website Development and Software Development',
+          name: 'DevMorphix IT Solutions Services',
+          description: 'Website development, software development, and IT solutions for businesses in Changanacherry, Kottayam, Alappuzha, Kerala, and India.',
           provider: {
             '@type': 'Organization',
             name: 'DevMorphix',
             url: baseUrl
           },
-          areaServed: 'Worldwide',
+          areaServed: [
+            'Changanacherry',
+            'Kottayam',
+            'Alappuzha',
+            'Kerala',
+            'India'
+          ],
           hasOfferCatalog: {
             '@type': 'OfferCatalog',
-            name: 'Web Development Services',
+            name: 'IT Solutions and Software Services',
             itemListElement: [
               {
                 '@type': 'Offer',
                 itemOffered: {
                   '@type': 'Service',
-                  name: 'Custom Web Development'
+                  name: 'Custom Website Development'
                 }
               },
               {
                 '@type': 'Offer',
                 itemOffered: {
                   '@type': 'Service',
-                  name: 'Mobile App Development'
+                  name: 'Software Development'
                 }
               },
               {
                 '@type': 'Offer',
                 itemOffered: {
                   '@type': 'Service',
-                  name: 'AI Integration'
+                  name: 'IT Solutions Consulting'
                 }
               },
               {
                 '@type': 'Offer',
                 itemOffered: {
                   '@type': 'Service',
-                  name: 'UI/UX Design'
+                  name: 'Web Application Development'
                 }
               }
             ]
@@ -105,8 +168,8 @@ const StructuredData: React.FC<StructuredDataProps> = ({ type, data }) => {
           '@context': 'https://schema.org',
           '@type': 'ContactPage',
           name: 'Contact DevMorphix',
-          description: 'Get in touch with DevMorphix for your digital transformation needs',
-          url: `${baseUrl}/#/contact`
+          description: 'Contact DevMorphix for IT solutions, website development, and software development in Kerala and India.',
+          url: `${baseUrl}/contact`
         };
 
       default:

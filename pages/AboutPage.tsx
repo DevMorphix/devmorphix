@@ -6,9 +6,9 @@ const AboutPage: React.FC = () => {
   return (
     <>
       <SEO
-        title="About Us - Expert Digital Transformation Team"
-        description="Meet the DevMorphix team - passionate developers, designers, and strategists dedicated to transforming businesses through innovative digital solutions and cutting-edge technology."
-        keywords="about DevMorphix, digital agency team, web development experts, technology consultants, software development company"
+        title="About DevMorphix | IT Company in Changanacherry, Kerala"
+        description="Meet DevMorphix, a Kerala-based IT solutions team focused on website development and software development for businesses in Changanacherry, Kottayam, Alappuzha, and India."
+        keywords="about devmorphix, it company changanacherry, software development kottayam, website development alappuzha, kerala"
         canonical="/about"
         ogImage="/og-about.jpg"
       />

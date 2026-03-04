@@ -1,8 +1,8 @@
 // SEO Configuration for DevMorphix
 export const seoConfig = {
-  defaultTitle: 'DevMorphix - Premium Web Development & Digital Solutions',
+  defaultTitle: 'DevMorphix | IT Solutions, Website & Software Development in Kerala, India',
   titleTemplate: '%s | DevMorphix',
-  defaultDescription: 'Transform your business with DevMorphix\'s cutting-edge web development, AI integration, and digital transformation solutions.',
+  defaultDescription: 'DevMorphix provides IT solutions, website development, and software development services in Changanacherry, Kottayam, Alappuzha, Kerala, and across India.',
   siteUrl: 'https://devmorphix.com',
   defaultImage: '/og-image.jpg',
   twitterUsername: '@devmorphix',
@@ -19,20 +19,20 @@ export const seoConfig = {
   // Contact Information
   contact: {
     email: 'hello@devmorphix.com',
-    phone: '+1-XXX-XXX-XXXX'
+    phone: '+91-00000-00000'
   },
   
   // Business Information
   business: {
     name: 'DevMorphix',
-    legalName: 'DevMorphix LLC',
+    legalName: 'DevMorphix',
     foundingDate: '2020',
     address: {
       streetAddress: '',
-      addressLocality: '',
-      addressRegion: '',
+      addressLocality: 'Changanacherry',
+      addressRegion: 'Kerala',
       postalCode: '',
-      addressCountry: 'US'
+      addressCountry: 'IN'
     }
   }
 };
@@ -40,34 +40,34 @@ export const seoConfig = {
 // Page-specific SEO configurations
 export const pageSEO = {
   home: {
-    title: 'Premium Web Development & Digital Solutions',
-    description: 'DevMorphix delivers cutting-edge web development, AI integration, and digital transformation solutions. Transform your business with our expert team of developers and designers.',
-    keywords: 'web development, digital agency, AI integration, custom software, app development, UI/UX design, DevMorphix'
+    title: 'IT Solutions & Website Development in Changanacherry, Kottayam, Alappuzha',
+    description: 'DevMorphix is a Kerala-based IT solutions company delivering website development and software development services in Changanacherry, Kottayam, Alappuzha, and across India.',
+    keywords: 'devmorphix, it solutions, changanacherry, kottayam, alappuzha kerala, india, website development, website developement, software development, web development company kerala'
   },
   about: {
-    title: 'About Us - Expert Digital Transformation Team',
-    description: 'Meet the DevMorphix team - passionate developers, designers, and strategists dedicated to transforming businesses through innovative digital solutions and cutting-edge technology.',
-    keywords: 'about DevMorphix, digital agency team, web development experts, technology consultants, software development company'
+    title: 'About DevMorphix - Kerala IT Solutions Team',
+    description: 'Learn about DevMorphix, a software and website development team serving businesses in Changanacherry, Kottayam, Alappuzha, Kerala, and India.',
+    keywords: 'about devmorphix, kerala it company, software development team kottayam, website developers changanacherry'
   },
   services: {
-    title: 'Our Services - Web Development, AI & Digital Solutions',
-    description: 'Explore DevMorphix\'s comprehensive digital services: custom web development, mobile apps, AI integration, cloud solutions, UI/UX design, and digital transformation consulting.',
-    keywords: 'web development services, mobile app development, AI integration, cloud solutions, UI/UX design, digital transformation, software consulting, API development'
+    title: 'Services - IT Solutions, Website & Software Development',
+    description: 'Explore DevMorphix services including IT solutions, custom website development, software development, and digital transformation for businesses in Kerala and India.',
+    keywords: 'it solutions services, website development services, software development services, web development kottayam, kerala software company'
   },
   portfolio: {
-    title: 'Portfolio - Our Featured Projects & Case Studies',
-    description: 'Discover DevMorphix\'s portfolio of successful web applications, mobile apps, and digital solutions. See how we\'ve helped businesses achieve digital transformation and growth.',
-    keywords: 'web development portfolio, case studies, project showcase, client success stories, web design examples, app development projects'
+    title: 'Portfolio - Website & Software Projects by DevMorphix',
+    description: 'View DevMorphix portfolio of website and software development projects delivered for clients in Kerala and India.',
+    keywords: 'devmorphix portfolio, software projects kerala, website development portfolio india, kottayam web projects'
   },
   templates: {
-    title: 'Premium Templates - Ready-to-Use Website & App Templates',
-    description: 'Browse DevMorphix\'s collection of premium, professionally designed templates for websites and applications. Fast-track your project with our customizable, modern templates.',
-    keywords: 'website templates, app templates, premium templates, web design templates, React templates, responsive templates, business templates'
+    title: 'Website Templates - Fast Launch Design Templates',
+    description: 'Browse DevMorphix templates to quickly launch modern business websites and digital products.',
+    keywords: 'website templates kerala, business website templates india, responsive web templates'
   },
   contact: {
-    title: 'Contact Us - Get Your Free Consultation',
-    description: 'Ready to transform your digital presence? Contact DevMorphix today for a free consultation. Let\'s discuss your project and create something extraordinary together.',
-    keywords: 'contact DevMorphix, free consultation, web development quote, hire developers, project inquiry, get in touch, digital agency contact'
+    title: 'Contact DevMorphix - IT Solutions in Kerala',
+    description: 'Contact DevMorphix for IT solutions, website development, and software development in Changanacherry, Kottayam, Alappuzha, Kerala, and India.',
+    keywords: 'contact devmorphix, it solutions changanacherry, website development kottayam, software company alappuzha'
   }
 };
 
