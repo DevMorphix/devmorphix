@@ -6,9 +6,9 @@ const TeamPage: React.FC = () => {
   return (
     <>
       <SEO
-        title="Our Team - Meet the DevMorphix Experts"
-        description="Meet the talented team behind DevMorphix - creative directors, architects, and strategists combining excellence with innovation to transform the digital landscape."
-        keywords="DevMorphix team, digital agency team, web development experts, creative directors, technology strategists, design team"
+        title="DevMorphix Team | Website & Software Experts in Kerala"
+        description="Meet the DevMorphix team delivering IT solutions, website development, and software development for businesses across Kerala and India."
+        keywords="devmorphix team, website developers kerala, software experts kottayam, it company changanacherry"
         canonical="/team"
         ogImage="/og-team.jpg"
       />

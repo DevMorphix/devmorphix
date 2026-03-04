@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import seoConfig from '../config/seoConfig';
 
 interface SEOProps {
   title: string;
@@ -19,7 +20,7 @@ const SEO: React.FC<SEOProps> = ({
   ogImage = '/og-image.jpg',
   twitterCard = 'summary_large_image'
 }) => {
-  const siteUrl = 'https://devmorphix.com'; // Update with your actual domain
+  const siteUrl = seoConfig.siteUrl;
   const fullTitle = `${title} | DevMorphix`;
   const fullCanonical = canonical ? `${siteUrl}${canonical}` : siteUrl;
 
@@ -67,18 +68,24 @@ const SEO: React.FC<SEOProps> = ({
     setMetaTag('og:description', description, true);
     setMetaTag('og:image', `${siteUrl}${ogImage}`, true);
     setMetaTag('og:site_name', 'DevMorphix', true);
+    setMetaTag('og:locale', 'en_IN', true);
 
     // Twitter
-    setMetaTag('twitter:card', twitterCard, true);
-    setMetaTag('twitter:url', fullCanonical, true);
-    setMetaTag('twitter:title', fullTitle, true);
-    setMetaTag('twitter:description', description, true);
-    setMetaTag('twitter:image', `${siteUrl}${ogImage}`, true);
+    setMetaTag('twitter:card', twitterCard);
+    setMetaTag('twitter:url', fullCanonical);
+    setMetaTag('twitter:title', fullTitle);
+    setMetaTag('twitter:description', description);
+    setMetaTag('twitter:image', `${siteUrl}${ogImage}`);
+    setMetaTag('twitter:site', seoConfig.twitterUsername);
 
     // Additional SEO Meta Tags
-    setMetaTag('robots', 'index, follow');
+    setMetaTag('robots', 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1');
+    setMetaTag('googlebot', 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1');
     setMetaTag('language', 'English');
-    setMetaTag('revisit-after', '7 days');
+    setMetaTag('geo.region', 'IN-KL');
+    setMetaTag('geo.placename', 'Changanacherry, Kottayam, Alappuzha, Kerala');
+    setMetaTag('geo.position', '9.4425;76.5476');
+    setMetaTag('ICBM', '9.4425, 76.5476');
     setMetaTag('author', 'DevMorphix');
   }, [title, description, keywords, fullTitle, fullCanonical, ogType, ogImage, twitterCard, siteUrl]);
 

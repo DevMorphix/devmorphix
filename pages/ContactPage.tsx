@@ -7,9 +7,9 @@ const ContactPage: React.FC = () => {
   return (
     <>
       <SEO
-        title="Contact Us - Get Your Free Consultation"
-        description="Ready to transform your digital presence? Contact DevMorphix today for a free consultation. Let's discuss your project and create something extraordinary together."
-        keywords="contact DevMorphix, free consultation, web development quote, hire developers, project inquiry, get in touch, digital agency contact"
+        title="Contact DevMorphix | IT Solutions in Kerala, India"
+        description="Contact DevMorphix for IT solutions, website development, and software development in Changanacherry, Kottayam, Alappuzha, Kerala, and across India."
+        keywords="contact devmorphix, it solutions kerala, website development changanacherry, software development kottayam, alappuzha"
         canonical="/contact"
         ogImage="/og-contact.jpg"
       />

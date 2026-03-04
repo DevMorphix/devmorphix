@@ -6,9 +6,9 @@ const PortfolioPage: React.FC = () => {
   return (
     <>
       <SEO
-        title="Portfolio - Our Featured Projects & Case Studies"
-        description="Discover DevMorphix's portfolio of successful web applications, mobile apps, and digital solutions. See how we've helped businesses achieve digital transformation and growth."
-        keywords="web development portfolio, case studies, project showcase, client success stories, web design examples, app development projects"
+        title="Portfolio | DevMorphix Website & Software Projects"
+        description="Discover DevMorphix portfolio projects in website development and software development delivered for businesses in Kerala and India."
+        keywords="devmorphix portfolio, website development projects kerala, software development case studies india, kottayam web company"
         canonical="/portfolio"
         ogImage="/og-portfolio.jpg"
       />

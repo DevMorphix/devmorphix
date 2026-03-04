@@ -6,9 +6,9 @@ const TemplatesPage: React.FC = () => {
   return (
     <>
       <SEO
-        title="Premium Templates - Ready-to-Use Website & App Templates"
-        description="Browse DevMorphix's collection of premium, professionally designed templates for websites and applications. Fast-track your project with our customizable, modern templates."
-        keywords="website templates, app templates, premium templates, web design templates, React templates, responsive templates, business templates"
+        title="Website Templates by DevMorphix"
+        description="Browse modern DevMorphix website templates to launch business sites faster with performance-focused design and clean UX."
+        keywords="website templates, devmorphix templates, business website templates india, responsive templates kerala"
         canonical="/templates"
         ogImage="/og-templates.jpg"
       />

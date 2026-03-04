@@ -7,9 +7,9 @@ const ServicesPage: React.FC = () => {
   return (
     <>
       <SEO
-        title="Our Services - Web Development, AI & Digital Solutions"
-        description="Explore DevMorphix's comprehensive digital services: custom web development, mobile apps, AI integration, cloud solutions, UI/UX design, and digital transformation consulting."
-        keywords="web development services, mobile app development, AI integration, cloud solutions, UI/UX design, digital transformation, software consulting, API development"
+        title="IT Solutions, Website & Software Development Services | DevMorphix"
+        description="Explore DevMorphix services: IT solutions, website development, and software development in Changanacherry, Kottayam, Alappuzha, Kerala, and India."
+        keywords="it solutions, website development services, software development services, devmorphix services, kottayam, alappuzha, kerala, india"
         canonical="/services"
         ogImage="/og-services.jpg"
       />
